@@ -1,0 +1,48 @@
+usage:
+
+viewer mesh_file scale_factor
+
+example:
+
+viewer ../meshes/bunny_nf4000.noff 10
+
+
+-----------------------------------------------------------------------------
+
+commands:
+
+1.change view points : 'v'
+
+there are two viewpoints, view from the camera, and view from (0,10,0).
+type 'v' will toggle view points.
+
+2.select object to manipulate
+
+refined geometry :'g'
+camera           :'s'
+
+
+3.select coordinates system , the manipulation is relative to the selected
+  one
+
+camera : 'S'
+world  : 'W'
+object itself : 'L'
+
+4.define manipulation
+
+ rotation : left button
+ translation: right button
+ translation: both left and right button
+ 
+5.menu
+
+press middle button : "show faces" will show faces; "show edges "
+will show all the edges.
+
+ 
+
+
+
+
+
